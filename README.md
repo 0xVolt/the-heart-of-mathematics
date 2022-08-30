@@ -8,9 +8,11 @@ A cardioid is a two-dimensional plane figure that has a heart-shaped curve. The 
 The following visuals are what inspired me to take on this passion project of visualising a cardioid.
 
 1. This image shows the cardioid as an envelope of pencil lines. This is the main logic that's implemented in the visualisation. A series of points are plotted equally spread across the circumference of the circle and are numbered from `0` to `n`. Each point is then connected with the point whose index is twice that of it's index. For example, the point indexed at `2` is connected with the point indexed at `4`. Point `5` with `10`. Point `n` with `2n`. The indexing of points can overlap with previously indexed points as the numbering laps the entire circumference.
+
 ![](assets/cardioid%20as%20an%20envelope%20of%20a%20pencil%20of%20lines.png)
 
-2. This image shows how cardioids commonly occur in nature as a caustic of light bouncing of the walls of a circular rim like a mug of coffee.
+1. This image shows how cardioids commonly occur in nature as a caustic of light bouncing of the walls of a circular rim like a mug of coffee.
+
 ![](assets/cardioid%20as%20caustic%20of%20a%20circle%20with%20light%20source%20right%20on%20the%20perimeter.png)
 ## Methodology
 p5.js is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, and anyone else.
