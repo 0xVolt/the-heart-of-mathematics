@@ -30,11 +30,14 @@ function draw() {
     translate(width / 2, height / 2);
 
     // Black background
-    background(0);
+    background(25);
 
     // Making the total number of points and the factor of multiplication dynamic as mouse pointer position
     const total = int(map(mouseY, 0, height, 0, 200));
-    factor = map(mouseX, 0, width, -10, 10);
+    // factor = map(mouseX, 0, width, -10, 10);
+
+    console.log(factor)
+    factor += 0.1
 
     // sinusoidalFactor = sin(4 * frameCount / 50);
 
@@ -48,7 +51,7 @@ function draw() {
     strokeWeight(2);
     for (let i = 0; i < total; i++) {
         const a = getVector(i, total);
-        const b = getVector(i * sinusoidalFactor, total);
+        const b = getVector(i * factor, total);
 
         line(a.x, a.y, b.x, b.y);
     }
