@@ -11,7 +11,7 @@ The following visuals are what inspired me to take on this passion project of vi
 
 ![](assets/cardioid%20as%20an%20envelope%20of%20a%20pencil%20of%20lines.png)
 
-1. This image shows how cardioids commonly occur in nature as a caustic of light bouncing of the walls of a circular rim like a mug of coffee.
+2. This image shows how cardioids commonly occur in nature as a caustic of light bouncing of the walls of a circular rim like a mug of coffee.
 
 ![](assets/cardioid%20as%20caustic%20of%20a%20circle%20with%20light%20source%20right%20on%20the%20perimeter.png)
 ## Methodology
